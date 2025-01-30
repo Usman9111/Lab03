@@ -20,7 +20,7 @@ int A = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter B: ")
 int B = Convert.ToInt32(Console.ReadLine());
 
-int Subtraction = A+B;
+int Subtraction = A-B;
 Console.WriteLine("Subtraction: " + Subtraction);
 
 //Multiplication
@@ -29,5 +29,14 @@ int A = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter B: ")
 int B = Convert.ToInt32(Console.ReadLine());
 
-int Multiplication = A+B;
+int Multiplication = A*B;
 Console.WriteLine("Multiplication: " + Multiplication);
+
+//Division
+Console.WriteLine("Enter A: ")
+int A = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter B: ")
+int B = Convert.ToInt32(Console.ReadLine());
+
+int Division = A/B;
+Console.WriteLine("Division: " + Division);
