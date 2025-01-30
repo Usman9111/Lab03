@@ -4,6 +4,7 @@ Console.WriteLine("Enter Roll_Number: ")
 int Roll_number = Convert.ToInt32(Console.ReadLine());
 
 
+//Addition
 Console.WriteLine("Enter A: ")
 int A = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter B: ")
@@ -11,3 +12,22 @@ int B = Convert.ToInt32(Console.ReadLine());
 
 int Addition = A+B;
 Console.WriteLine("Addition: " + Addition);
+
+
+//Subtraction
+Console.WriteLine("Enter A: ")
+int A = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter B: ")
+int B = Convert.ToInt32(Console.ReadLine());
+
+int Subtraction = A+B;
+Console.WriteLine("Subtraction: " + Subtraction);
+
+//Multiplication
+Console.WriteLine("Enter A: ")
+int A = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter B: ")
+int B = Convert.ToInt32(Console.ReadLine());
+
+int Multiplication = A+B;
+Console.WriteLine("Multiplication: " + Multiplication);
